@@ -16,6 +16,6 @@ public class Application {
 	public static void main(String[]args) {
 		Timer timer = new Timer();
 		Timekeeper time = new Timekeeper();
-		timer.schedule(time, 0, 1500);
+		timer.schedule(time, 0, 2000);
 	}//end main()
 }//end Application class
